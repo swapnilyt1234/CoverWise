@@ -57,10 +57,12 @@ are supported. Resolved files must remain in the configured PDF directory.
 Limits: 512 KiB PDF bytes, six pages, 256 KiB decoded page content stream,
 20000 characters per page, 60000 total text characters, four sources per term,
 280 characters per value, 400 per full excerpt, 65536 UTF-8 bytes per structured
-report, and 12000 characters per displayed reply. Runtime extraction runs in a
-child process with a two-second deadline for single-policy inspection; timeout
-kills/waits for that child. Recommendation and quote batches use a five-second
-startup/readiness phase followed by a separate two-second deadline per PDF; see
+report, and 12000 characters per displayed reply. All runtime inspection paths
+use the same isolated worker: a five-second startup/readiness bound, followed by
+a separate two-second deadline per PDF. This includes job-card confirmation,
+`/inspect`, stress inspection, recommendation and quote batches. Timeout
+kills/waits for that child and closes its pipes; see
+[job confirmation repair](job-inspection-repair.md) and the earlier
 [quote startup repair](quote-extraction-repair.md).
 The coordinator's existing pending-request bound and configured timeout still
 apply, so a very short coordinator timeout can expire first. The worker is not

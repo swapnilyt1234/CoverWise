@@ -233,28 +233,7 @@ def load_policy(policy_id: str) -> PolicyInspection:
 
 
 def inspect_policy(policy_id: str) -> PolicyInspection:
-    if policy_id not in REGISTRY | CANDIDATES:
-        raise PolicyError("unknown_policy_id")
-    try:
-        process = subprocess.run(
-            [sys.executable, "-m", "coverwise.policies", "--worker", policy_id],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.DEVNULL,
-            timeout=WORKER_SECONDS,
-        )
-    except subprocess.TimeoutExpired:
-        raise PolicyError("extraction_timeout") from None
-    except OSError:
-        raise PolicyError("extraction_failed") from None
-    if process.returncode:
-        code = process.stdout.decode("ascii", errors="ignore").strip()
-        raise PolicyError(code if code in ERROR_CODES else "extraction_failed")
-    if len(process.stdout) > MAX_REPORT:
-        raise PolicyError("result_too_large")
-    try:
-        return PolicyInspection.model_validate_json(process.stdout)
-    except ValueError:
-        raise PolicyError("invalid_result") from None
+    return inspect_policies([policy_id])[0]
 
 
 def inspect_policies(policy_ids: list[str]) -> list[PolicyInspection]:

@@ -20,9 +20,9 @@ illustrative January 15 illness event.
 | Agentverse coordinator profile URL | **not yet supplied** |
 | Public coordinator address/handle | **not yet supplied**; copy from the user's existing Inspector/profile |
 | Public ASI:One shared chat URL | **not yet supplied** |
-| 3?5 minute video URL | **not yet supplied** |
+| Demo video | [Watch the CoverWise demo](https://drive.google.com/file/d/12QJ1qEMCWN3aixjitWpUJvVtVy4q07iH/view?usp=sharing) |
 
-These are deliberate placeholders, not links. Local coordinator name in code:
+Entries marked **not yet supplied** remain placeholders. Local coordinator name in code:
 `CoverWise Diagnostic` (legacy name retained to preserve identity). Internal
 specialists have no separate registered profiles in this implementation.
 

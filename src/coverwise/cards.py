@@ -562,7 +562,7 @@ class Cards:
             ),
         )
 
-    def job_review(self, scope, session, draft):
+    def job_review(self, scope, session, draft, error=None):
         session.stage = "job_review"
         rows = [
             row("Last working day", draft.final_employment),
@@ -578,7 +578,7 @@ class Cards:
             ),
         ]
         return message(
-            "Review the details before checking the sample policy.",
+            error or "Review the details before checking the sample policy.",
             Review(
                 title="Review details",
                 summary_rows=rows,
@@ -638,13 +638,18 @@ class Cards:
     async def job_result(self, ctx, scope, session, draft):
         result = await self.services.delegate(ctx, "", policy_id=draft.policy)
         if result.status != "success":
-            return self.restart_prompt(
+            trace = CARD_TRACE.get()
+            if trace is not None:
+                trace["validation"], trace["fallback"] = (
+                    "accepted",
+                    "inspection_unavailable",
+                )
+            return self.job_review(
                 scope,
                 session,
-                "The sample policy could not be checked. "
-                "Use /inspect or restart this draft.",
-                "inspection_unavailable",
-                validation="accepted",
+                draft,
+                "The sample policy could not be checked. Your details are saved; "
+                "select Check policy to retry, or Edit details.",
             )
         report = PolicyInspection.model_validate_json(result.report_json)
         rules = interpret(report)

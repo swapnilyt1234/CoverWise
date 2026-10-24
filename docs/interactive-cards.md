@@ -4,6 +4,12 @@
 The menu/progressive forms there supersede the original screen sequence below;
 the original wire, authorization and verification notes remain historical evidence.
 
+Job confirmation now shares the quote worker's separate startup and extraction
+deadlines. If inspection fails, the current review preserves the submitted dates,
+cover choice and policy, with a fresh **Check policy** action for retry and an
+**Edit details** action. The failed confirmation token remains consumed. See
+[job inspection repair and exact live retest](job-inspection-repair.md).
+
 Uses the four predefined schemas in the [official ASI:One Interactive Cards
 reference](https://innovationlab.fetch.ai/resources/docs/interactive-cards/asi-interactive-cards),
 read on 2026-10-24 (reference version 1.0.5). No frontend, custom component,
