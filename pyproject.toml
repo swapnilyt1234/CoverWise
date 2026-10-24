@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "coverwise"
+version = "0.1.0"
+description = "Evidence-backed synthetic insurance comparison and sandbox application workflow"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "uagents==0.25.5",
+    "pydantic>=2,<3",
+    "openai",
+    "python-dotenv",
+    "pypdf>=6,<7",
+]
+
+[dependency-groups]
+dev = ["pytest", "ruff", "reportlab>=4,<5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/coverwise"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"fixtures/catalogue.v1.json" = "coverwise/data/fixtures/catalogue.v1.json"
+"fixtures/policies/existing-employer.json" = "coverwise/data/fixtures/policies/existing-employer.json"
+"fixtures/policies/existing-personal.json" = "coverwise/data/fixtures/policies/existing-personal.json"
+"fixtures/policies/candidate-economy.json" = "coverwise/data/fixtures/policies/candidate-economy.json"
+"fixtures/policies/candidate-query.json" = "coverwise/data/fixtures/policies/candidate-query.json"
+"fixtures/policies/candidate-horizon.json" = "coverwise/data/fixtures/policies/candidate-horizon.json"
+"output/pdf/existing-employer.pdf" = "coverwise/data/output/pdf/existing-employer.pdf"
+"output/pdf/existing-personal.pdf" = "coverwise/data/output/pdf/existing-personal.pdf"
+"output/pdf/candidate-economy.pdf" = "coverwise/data/output/pdf/candidate-economy.pdf"
+"output/pdf/candidate-query.pdf" = "coverwise/data/output/pdf/candidate-query.pdf"
+"output/pdf/candidate-horizon.pdf" = "coverwise/data/output/pdf/candidate-horizon.pdf"
+
+[tool.hatch.build.targets.sdist]
+include = ["/src/coverwise", "/tests", "/fixtures", "/output/pdf/*.pdf", "/docs",
+           "/README.md", "/pyproject.toml", "/uv.lock", "/.python-version", "/.env.example"]
+exclude = ["**/__pycache__", "**/*.pyc"]

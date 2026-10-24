@@ -1,0 +1,27 @@
+{
+  "id": "existing-personal",
+  "title": "Pebble Personal Health",
+  "insurer": "Fictional Pebble Assurance",
+  "version": "1",
+  "pages": [
+    {"heading": "Personal policy schedule", "clauses": [
+      {"id": "PER-01", "term": "Policy dates", "value": "2026-07-01 through 2027-06-30 inclusive."},
+      {"id": "PER-01", "term": "Covered members", "value": "member-01 Demo A (self, born 1992-04-10); member-02 Demo B (spouse, born 1994-08-15)."},
+      {"id": "PER-01", "term": "Sum insured", "value": "20000000 INR paise per policy year, shared family hospitalization limit."},
+      {"id": "PER-01", "term": "Annual premium", "value": "600000 INR paise, total annual premium for both members."}
+    ]},
+    {"heading": "Room restrictions", "clauses": [
+      {"id": "PER-02", "term": "Room rent", "value": "300000 INR paise per day maximum room reimbursement."},
+      {"id": "PER-02", "term": "Exclusions", "value": "Cosmetic treatment and elective dental treatment are excluded."}
+    ]},
+    {"heading": "Waiting period and event-specific terms", "clauses": [
+      {"id": "PER-03", "term": "Waiting period", "value": "Initial illness waiting interval is 2026-07-01 through 2026-07-31 inclusive. No continuity credit or waiver is granted."},
+      {"id": "PER-04", "term": "Deductible", "value": "None for appendicitis hospitalization; other events are not specified."},
+      {"id": "PER-04", "term": "Co-payment", "value": "None for appendicitis hospitalization; other events are not specified."},
+      {"id": "PER-04", "term": "Event sublimits", "value": "No appendicitis-specific sublimit beyond the stated family and room limits; other procedures are not specified."}
+    ]},
+    {"heading": "Room reimbursement calculation restriction", "clauses": [
+      {"id": "PER-05", "term": "Room deduction rule", "value": "The room cap limits room reimbursement only; it does not impose proportional deductions on other eligible costs."}
+    ]}
+  ]
+}

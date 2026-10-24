@@ -1,0 +1,24 @@
+{
+  "id": "existing-employer",
+  "title": "Harbor Employer Health",
+  "insurer": "Fictional Harbor Assurance",
+  "version": "1",
+  "pages": [
+    {"heading": "Enrollment and policy schedule", "clauses": [
+      {"id": "EMP-01", "term": "Policy dates", "value": "2026-01-01 through 2026-12-31 inclusive; subject to employment termination."},
+      {"id": "EMP-01", "term": "Covered members", "value": "member-01 Demo A (self, born 1992-04-10); member-02 Demo B (spouse, born 1994-08-15)."},
+      {"id": "EMP-01", "term": "Sum insured", "value": "100000000 INR paise per policy year, shared family hospitalization limit."}
+    ]},
+    {"heading": "Employment-linked coverage", "clauses": [
+      {"id": "EMP-02", "term": "Employment termination", "value": "Coverage for both members ends on Demo A's final employment date, 2026-12-31 inclusive, or policy expiry if earlier. No conversion or continuity benefit."},
+      {"id": "EMP-02", "term": "Waiting period", "value": "None for initial illness hospitalization under this synthetic employer policy."},
+      {"id": "EMP-02", "term": "Exclusions", "value": "Cosmetic treatment and elective dental treatment are excluded."}
+    ]},
+    {"heading": "Costs and restrictions", "clauses": [
+      {"id": "EMP-03", "term": "Room rent", "value": "Private single room without a daily monetary cap; overall family limit still applies."},
+      {"id": "EMP-03", "term": "Deductible", "value": "None for hospitalization under this synthetic employer policy."},
+      {"id": "EMP-03", "term": "Co-payment", "value": "None for hospitalization under this synthetic employer policy."},
+      {"id": "EMP-03", "term": "Event sublimits", "value": "UNCONFIRMED: additional procedure schedule has not been supplied."}
+    ]}
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "catalogue_version": "synthetic-catalogue-1",
+  "synthetic": true,
+  "published_at": "2026-10-23T00:00:00Z",
+  "products": [
+    {
+      "product_id": "candidate-economy",
+      "name": "Lantern Economy",
+      "insurer": "Fictional Lantern Assurance",
+      "document": {
+        "document_id": "candidate-economy",
+        "document_version": "1",
+        "sha256": "053062f335c750ac313fc9f608db484a60c6ea7dc0ab5e4f8f47cad68905a6f8"
+      },
+      "annual_premium_paise": 1200000,
+      "premium_basis": "Indicative annual family list premium for up to 2 eligible adults; not a quote; no additional taxes or fees in this demo.",
+      "family_limit_paise": 50000000,
+      "uncapped_private_room": false,
+      "policy_days": 365,
+      "initial_wait_days": 30,
+      "eligibility": {
+        "min_age": 18,
+        "max_age": 60,
+        "max_members": 2,
+        "relationships": [
+          "self",
+          "spouse"
+        ],
+        "no_preexisting_required": true
+      }
+    },
+    {
+      "product_id": "candidate-query",
+      "name": "Lantern Query",
+      "insurer": "Fictional Lantern Assurance",
+      "document": {
+        "document_id": "candidate-query",
+        "document_version": "1",
+        "sha256": "64636a7b09a12209f10aaeca64a4d6f3716abfed9d46e7c30d43bbf4c1a4a04a"
+      },
+      "annual_premium_paise": 1800000,
+      "premium_basis": "Indicative annual family list premium for up to 2 eligible adults; not a quote; no additional taxes or fees in this demo.",
+      "family_limit_paise": 100000000,
+      "uncapped_private_room": null,
+      "policy_days": 365,
+      "initial_wait_days": 30,
+      "eligibility": {
+        "min_age": 18,
+        "max_age": 60,
+        "max_members": 2,
+        "relationships": [
+          "self",
+          "spouse"
+        ],
+        "no_preexisting_required": true
+      }
+    },
+    {
+      "product_id": "candidate-horizon",
+      "name": "Lantern Horizon",
+      "insurer": "Fictional Lantern Assurance",
+      "document": {
+        "document_id": "candidate-horizon",
+        "document_version": "1",
+        "sha256": "1be9dd15f828d1c35733ce48ba111d712133656d282353678ba1d615829d0dd7"
+      },
+      "annual_premium_paise": 2200000,
+      "premium_basis": "Indicative annual family list premium for up to 2 eligible adults; not a quote; no additional taxes or fees in this demo.",
+      "family_limit_paise": 100000000,
+      "uncapped_private_room": true,
+      "policy_days": 365,
+      "initial_wait_days": 30,
+      "eligibility": {
+        "min_age": 18,
+        "max_age": 60,
+        "max_members": 2,
+        "relationships": [
+          "self",
+          "spouse"
+        ],
+        "no_preexisting_required": true
+      }
+    }
+  ]
+}

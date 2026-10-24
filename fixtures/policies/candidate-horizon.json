@@ -1,0 +1,103 @@
+{
+  "id": "candidate-horizon",
+  "title": "Lantern Horizon",
+  "insurer": "Fictional Lantern Assurance",
+  "version": "1",
+  "pages": [
+    {
+      "heading": "Fictional proposed policy schedule",
+      "clauses": [
+        {
+          "id": "HOR-01",
+          "term": "Identity",
+          "value": "Lantern Horizon; insurer Fictional Lantern Assurance; synthetic only."
+        },
+        {
+          "id": "HOR-01",
+          "term": "Policy dates",
+          "value": "365 days from proposed start, inclusive; independent of employment."
+        },
+        {
+          "id": "HOR-01",
+          "term": "Covered members",
+          "value": "Proposed members subject to eligibility; no cover is issued."
+        },
+        {
+          "id": "HOR-01",
+          "term": "Sum insured",
+          "value": "100000000 INR paise per policy year, shared family hospitalization limit."
+        },
+        {
+          "id": "HOR-01",
+          "term": "Annual premium",
+          "value": "2200000 INR paise, indicative annual family list premium."
+        }
+      ]
+    },
+    {
+      "heading": "Fictional entry rules and room restrictions",
+      "clauses": [
+        {
+          "id": "HOR-02",
+          "term": "Eligibility",
+          "value": "Self required; spouse optional; entry ages 18 through 60 inclusive at proposed start; maximum 2 members; pre-existing conditions must be declared absent."
+        },
+        {
+          "id": "HOR-02",
+          "term": "Room rent",
+          "value": "Private single room without a daily monetary cap; overall family limit still applies."
+        },
+        {
+          "id": "HOR-02",
+          "term": "Exclusions",
+          "value": "Cosmetic treatment and elective dental treatment are excluded."
+        }
+      ]
+    },
+    {
+      "heading": "New-policy wait and indicative pricing basis",
+      "clauses": [
+        {
+          "id": "HOR-03",
+          "term": "Waiting period",
+          "value": "Initial illness wait is 30 days from proposed start, inclusive. No continuity credit or waiver is granted."
+        },
+        {
+          "id": "HOR-03",
+          "term": "Pre-existing condition wait",
+          "value": "Pre-existing conditions are not accepted; explicit absence disclosure is required."
+        },
+        {
+          "id": "HOR-03",
+          "term": "Premium basis",
+          "value": "Indicative annual family list premium for up to 2 eligible adults; not a quote; no additional taxes or fees in this demo."
+        }
+      ]
+    },
+    {
+      "heading": "Conditional illness hospitalization terms",
+      "clauses": [
+        {
+          "id": "HOR-04",
+          "term": "Deductible",
+          "value": "None for illness hospitalization under this synthetic candidate policy."
+        },
+        {
+          "id": "HOR-04",
+          "term": "Co-payment",
+          "value": "None for illness hospitalization under this synthetic candidate policy."
+        },
+        {
+          "id": "HOR-04",
+          "term": "Event sublimits",
+          "value": "No illness-specific sublimit beyond the stated family and room limits."
+        },
+        {
+          "id": "HOR-04",
+          "term": "Room deduction rule",
+          "value": "No proportional deductions on other eligible costs; stated room and family limits still apply."
+        }
+      ]
+    }
+  ]
+}

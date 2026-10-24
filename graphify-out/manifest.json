@@ -1,0 +1,452 @@
+{
+  "pyproject.toml": {
+    "mtime": 1792792617.7993255,
+    "seen": 1792793891.6551402,
+    "ast_hash": "b32b38118e8123ab7a2deba0a0f966b8",
+    "semantic_hash": ""
+  },
+  "src/coverwise/__init__.py": {
+    "mtime": 1792741630.3471725,
+    "seen": 1792741780.0561419,
+    "ast_hash": "333c154c905153f15c6976e2826c9fa8",
+    "semantic_hash": ""
+  },
+  "src/coverwise/contracts.py": {
+    "mtime": 1792776988.5000281,
+    "seen": 1792781252.5319796,
+    "ast_hash": "dc22dca75a3260b2d955b4b511ff9c59",
+    "semantic_hash": ""
+  },
+  "src/coverwise/doctor.py": {
+    "mtime": 1792741923.2630944,
+    "seen": 1792741932.7997403,
+    "ast_hash": "d2fea58bcc7049d61abcc0b1e8a0f81d",
+    "semantic_hash": ""
+  },
+  "tests/test_contracts.py": {
+    "mtime": 1792741923.8733618,
+    "seen": 1792741932.7997425,
+    "ast_hash": "c70edf003f0b40be0102223640fd136d",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1792837248.6120615,
+    "seen": 1792837288.4104261,
+    "ast_hash": "cf127b21b5ce035b9c3f3c044d7d69c8",
+    "semantic_hash": ""
+  },
+  "docs/architecture.md": {
+    "mtime": 1792826233.9747589,
+    "seen": 1792826349.4595072,
+    "ast_hash": "8d5e6ed83a5571905e62c60f634ab3bf",
+    "semantic_hash": ""
+  },
+  "docs/fixtures.md": {
+    "mtime": 1792781234.1071126,
+    "seen": 1792781252.5320666,
+    "ast_hash": "fd8d48f26f051be9f994f8fce3e4de57",
+    "semantic_hash": ""
+  },
+  "tests/test_doctor.py": {
+    "mtime": 1792741985.3197193,
+    "seen": 1792741991.8559606,
+    "ast_hash": "524b89a07c83b70dfa096400bd974b70",
+    "semantic_hash": ""
+  },
+  "docs/verification.md": {
+    "mtime": 1792833721.4250803,
+    "seen": 1792833746.7327085,
+    "ast_hash": "dec47a5c994d2634ae5119b4f400ed69",
+    "semantic_hash": ""
+  },
+  "src/coverwise/agents.py": {
+    "mtime": 1792836245.3016043,
+    "seen": 1792837288.4102724,
+    "ast_hash": "71c4de4b678d3e68d45242a3b23a4b60",
+    "semantic_hash": ""
+  },
+  "src/coverwise/asi.py": {
+    "mtime": 1792817685.0065129,
+    "seen": 1792817947.6798632,
+    "ast_hash": "76b44836426dbeeef131ef0978d5f4d1",
+    "semantic_hash": ""
+  },
+  "src/coverwise/live.py": {
+    "mtime": 1792783080.924892,
+    "seen": 1792784163.7113776,
+    "ast_hash": "a8e2d5722914daccfc29894678ba5c48",
+    "semantic_hash": ""
+  },
+  "src/coverwise/runtime.py": {
+    "mtime": 1792743512.6757758,
+    "seen": 1792743577.1261594,
+    "ast_hash": "36424958e5c51ad880d4226846d382aa",
+    "semantic_hash": ""
+  },
+  "src/coverwise/smoke.py": {
+    "mtime": 1792743516.700707,
+    "seen": 1792743577.1261604,
+    "ast_hash": "751a10e3bb275dd7e2daa7e449d755d8",
+    "semantic_hash": ""
+  },
+  "src/coverwise/transport.py": {
+    "mtime": 1792785906.8185027,
+    "seen": 1792787902.8000586,
+    "ast_hash": "85e11fbb28ecbc2e6fa4d212a0b1054d",
+    "semantic_hash": ""
+  },
+  "tests/test_communication.py": {
+    "mtime": 1792783431.467802,
+    "seen": 1792784163.7114158,
+    "ast_hash": "1c049f3cc4d2bf9720d9cfa96fbd1485",
+    "semantic_hash": ""
+  },
+  "docs/communication.md": {
+    "mtime": 1792818636.59747,
+    "seen": 1792818643.4051845,
+    "ast_hash": "926478d6cd7e9f41c8974d8f22ea7833",
+    "semantic_hash": ""
+  },
+  "tests/test_acp_logging.py": {
+    "mtime": 1792783408.2722847,
+    "seen": 1792784163.7114122,
+    "ast_hash": "db91cfc00d498519bacafa71255e1e70",
+    "semantic_hash": ""
+  },
+  "fixtures/policies/existing-employer.json": {
+    "mtime": 1792747507.1131876,
+    "seen": 1792748500.2764833,
+    "ast_hash": "512c5cc31366dd2e1783100f5621ab4b",
+    "semantic_hash": ""
+  },
+  "fixtures/policies/existing-personal.json": {
+    "mtime": 1792747507.7263794,
+    "seen": 1792748500.2764955,
+    "ast_hash": "b21e6f4cd8736f245c015ec0812f254b",
+    "semantic_hash": ""
+  },
+  "src/coverwise/generate_policies.py": {
+    "mtime": 1792792616.7899475,
+    "seen": 1792793891.6552036,
+    "ast_hash": "4a0defc00c3197843335d7d6e3b682a9",
+    "semantic_hash": ""
+  },
+  "src/coverwise/policies.py": {
+    "mtime": 1792823500.4443455,
+    "seen": 1792823682.1811461,
+    "ast_hash": "3fd8aab1431e432c175e3ce1e32929a5",
+    "semantic_hash": ""
+  },
+  "tests/test_policy_pdf.py": {
+    "mtime": 1792823461.6673324,
+    "seen": 1792823682.1812189,
+    "ast_hash": "3d08aec7735023be751079fab6cbeae5",
+    "semantic_hash": ""
+  },
+  "tests/test_policy_rules.py": {
+    "mtime": 1792748106.0904708,
+    "seen": 1792748500.2765653,
+    "ast_hash": "f18f639e2d9203d47fc548a6dc4d15e2",
+    "semantic_hash": ""
+  },
+  "docs/policy-inspection.md": {
+    "mtime": 1792823625.398806,
+    "seen": 1792823682.1812835,
+    "ast_hash": "9353881696aaa0b076868291077d45d3",
+    "semantic_hash": ""
+  },
+  "src/coverwise/money.py": {
+    "mtime": 1792766119.3854084,
+    "seen": 1792766177.4092813,
+    "ast_hash": "f104d6b95ebc143f854e949c50b16ac1",
+    "semantic_hash": ""
+  },
+  "src/coverwise/stress.py": {
+    "mtime": 1792789994.5337982,
+    "seen": 1792790333.6675243,
+    "ast_hash": "5ca149f88b9cfc39792c1254b566876d",
+    "semantic_hash": ""
+  },
+  "tests/test_stress.py": {
+    "mtime": 1792766343.6396682,
+    "seen": 1792766398.6694014,
+    "ast_hash": "94e4f16d1b815e5fee7c914108f8bfdb",
+    "semantic_hash": ""
+  },
+  "docs/stress-testing.md": {
+    "mtime": 1792781235.1507316,
+    "seen": 1792781252.5320768,
+    "ast_hash": "b32eab5e97b5ea1631244b6f9e285382",
+    "semantic_hash": ""
+  },
+  "output/pdf/existing-employer.pdf": {
+    "mtime": 1792777188.7561545,
+    "seen": 1792781252.532118,
+    "ast_hash": "e897e89ac19ebf27210837b90afbbfed",
+    "semantic_hash": ""
+  },
+  "output/pdf/existing-personal.pdf": {
+    "mtime": 1792777188.7681541,
+    "seen": 1792781252.5321212,
+    "ast_hash": "2a645138574761c081b2977213fda698",
+    "semantic_hash": ""
+  },
+  "fixtures/catalogue.v1.json": {
+    "mtime": 1792777002.2787018,
+    "seen": 1792781252.531885,
+    "ast_hash": "16de29f88de41bc1cf9770ca169bf325",
+    "semantic_hash": ""
+  },
+  "fixtures/policies/candidate-economy.json": {
+    "mtime": 1792777001.8853834,
+    "seen": 1792781252.531901,
+    "ast_hash": "2a07c29fa3207d597f101a6206f15428",
+    "semantic_hash": ""
+  },
+  "fixtures/policies/candidate-horizon.json": {
+    "mtime": 1792777002.2499025,
+    "seen": 1792781252.5319092,
+    "ast_hash": "c19f5b6b7914c074bb2b6204e33b177e",
+    "semantic_hash": ""
+  },
+  "fixtures/policies/candidate-query.json": {
+    "mtime": 1792777002.221049,
+    "seen": 1792781252.531914,
+    "ast_hash": "0d032e333107edc4a36d44b283afe6d1",
+    "semantic_hash": ""
+  },
+  "src/coverwise/catalogue.py": {
+    "mtime": 1792792615.7345471,
+    "seen": 1792793891.6551738,
+    "ast_hash": "6df9c59be67f95be72b8c7ac65ce05c0",
+    "semantic_hash": ""
+  },
+  "src/coverwise/provider.py": {
+    "mtime": 1792786794.4139614,
+    "seen": 1792787902.7999206,
+    "ast_hash": "b362c8731afd1df8a04a49dfc8e814d8",
+    "semantic_hash": ""
+  },
+  "src/coverwise/recommend.py": {
+    "mtime": 1792790237.6724086,
+    "seen": 1792790333.6674957,
+    "ast_hash": "efc7b2869f5f77989e4ec11cf683dfde",
+    "semantic_hash": ""
+  },
+  "tests/test_recommend.py": {
+    "mtime": 1792783557.6503057,
+    "seen": 1792784163.7114346,
+    "ast_hash": "74198c3040c78766f3b0fa998936acd0",
+    "semantic_hash": ""
+  },
+  "docs/recommendations.md": {
+    "mtime": 1792787640.4818711,
+    "seen": 1792787902.8002949,
+    "ast_hash": "8243d529ae4e3be678785c42ba3c2e5a",
+    "semantic_hash": ""
+  },
+  "output/pdf/candidate-economy.pdf": {
+    "mtime": 1792777188.7801576,
+    "seen": 1792781252.5321083,
+    "ast_hash": "2e5e247088f985590650fdbe6235b57f",
+    "semantic_hash": ""
+  },
+  "output/pdf/candidate-horizon.pdf": {
+    "mtime": 1792777188.805153,
+    "seen": 1792781252.5321114,
+    "ast_hash": "a635feb139eb69db70fe5e49c3756c14",
+    "semantic_hash": ""
+  },
+  "output/pdf/candidate-query.pdf": {
+    "mtime": 1792777188.7931547,
+    "seen": 1792781252.5321145,
+    "ast_hash": "c72e0b4979afaa51cc9fd35204743a91",
+    "semantic_hash": ""
+  },
+  "docs/recommendation-verification.md": {
+    "mtime": 1792781720.304595,
+    "seen": 1792784163.7114654,
+    "ast_hash": "8f8d8699a106bd2a142ff71663a33f32",
+    "semantic_hash": ""
+  },
+  "docs/recommendation-timing.md": {
+    "mtime": 1792823627.000376,
+    "seen": 1792823682.1813016,
+    "ast_hash": "c9032bf22e6f2804c1fda2938ff5a4c4",
+    "semantic_hash": ""
+  },
+  "src/coverwise/sandbox.py": {
+    "mtime": 1792793200.677207,
+    "seen": 1792793891.655246,
+    "ast_hash": "f11a65960803b7d781d51034b2160fcb",
+    "semantic_hash": ""
+  },
+  "src/coverwise/sandbox_contracts.py": {
+    "mtime": 1792790133.798311,
+    "seen": 1792790333.6675088,
+    "ast_hash": "babc190e714f5426b6f3f5692f4b32c2",
+    "semantic_hash": ""
+  },
+  "src/coverwise/sandbox_demo.py": {
+    "mtime": 1792787236.451605,
+    "seen": 1792787902.8000004,
+    "ast_hash": "c31d6e52f7b50100d08c9928034258ce",
+    "semantic_hash": ""
+  },
+  "src/coverwise/sandbox_ui.py": {
+    "mtime": 1792825266.9763453,
+    "seen": 1792826349.4594724,
+    "ast_hash": "7ff9477c82816b5aa175290f7a4bf1bb",
+    "semantic_hash": ""
+  },
+  "tests/test_sandbox.py": {
+    "mtime": 1792828912.8300447,
+    "seen": 1792833746.7326083,
+    "ast_hash": "1dab160689ba4a5af98d1c9df2b777fd",
+    "semantic_hash": ""
+  },
+  "docs/sandbox.md": {
+    "mtime": 1792792045.5244448,
+    "seen": 1792793891.6554227,
+    "ast_hash": "dad6a4f64b2a29e55fffdc5d7cadbd06",
+    "semantic_hash": ""
+  },
+  "docs/sandbox-verification.md": {
+    "mtime": 1792790312.5834956,
+    "seen": 1792790333.6675951,
+    "ast_hash": "45c5c9972b64963a5eeea0cad4b0f368",
+    "semantic_hash": ""
+  },
+  "docs/presentation.md": {
+    "mtime": 1792793790.279526,
+    "seen": 1792793891.655384,
+    "ast_hash": "4f294e1af31c9c244942bf934cb1fd76",
+    "semantic_hash": ""
+  },
+  "src/coverwise/demo_reset.py": {
+    "mtime": 1792794154.0460434,
+    "seen": 1792794300.4673336,
+    "ast_hash": "be79dd908e66f1a9ba3a0e146640af50",
+    "semantic_hash": ""
+  },
+  "tests/test_demo_reset.py": {
+    "mtime": 1792794018.5086896,
+    "seen": 1792794300.467406,
+    "ast_hash": "4ad136537ace8498f8ddb08bd0ff3c64",
+    "semantic_hash": ""
+  },
+  "docs/demo-script.md": {
+    "mtime": 1792793685.883927,
+    "seen": 1792793891.6553612,
+    "ast_hash": "eaa1fae563d1888f80797bb88d7b7cf9",
+    "semantic_hash": ""
+  },
+  "docs/details-pagination.md": {
+    "mtime": 1792792088.6644824,
+    "seen": 1792793891.6553664,
+    "ast_hash": "567d6fa7faa70807244b77a91a738b07",
+    "semantic_hash": ""
+  },
+  "docs/rehearsal.md": {
+    "mtime": 1792794020.4795368,
+    "seen": 1792794300.4674728,
+    "ast_hash": "a93bccd0186c907ec9848bd2506fd0fb",
+    "semantic_hash": ""
+  },
+  "docs/submission-checklist.md": {
+    "mtime": 1792817831.248838,
+    "seen": 1792817947.6800525,
+    "ast_hash": "2dbc8a2c296cc22ee7e0073870b8b2be",
+    "semantic_hash": ""
+  },
+  "docs/preparation-verification.md": {
+    "mtime": 1792794457.8481264,
+    "seen": 1792817947.6800175,
+    "ast_hash": "e36abce5c58b876cb428696f61b3ec63",
+    "semantic_hash": ""
+  },
+  "src/coverwise/conversation.py": {
+    "mtime": 1792820601.436339,
+    "seen": 1792820769.5565236,
+    "ast_hash": "ed2df2c0919c88e6d7020ade05afcd24",
+    "semantic_hash": ""
+  },
+  "tests/test_conversation.py": {
+    "mtime": 1792825269.0331786,
+    "seen": 1792826349.4594867,
+    "ast_hash": "0808a9c9facd925c7c8d6685356d637a",
+    "semantic_hash": ""
+  },
+  "docs/conversation.md": {
+    "mtime": 1792826231.760955,
+    "seen": 1792826349.4595106,
+    "ast_hash": "c1bb8833e3dc0126ddc9642a8ffa682b",
+    "semantic_hash": ""
+  },
+  "docs/policy-followup-fix.md": {
+    "mtime": 1792821225.261517,
+    "seen": 1792822519.824759,
+    "ast_hash": "7fbeb719845f73da3fb469ba86269c61",
+    "semantic_hash": ""
+  },
+  "docs/apply-command-fix.md": {
+    "mtime": 1792822582.9097722,
+    "seen": 1792823682.1812491,
+    "ast_hash": "cae8aaffa469abdd596db024634a4b51",
+    "semantic_hash": ""
+  },
+  "tests/test_quote_workers.py": {
+    "mtime": 1792823501.9670787,
+    "seen": 1792823682.1812284,
+    "ast_hash": "33c68a8f0edac7454c4beb1bb384e3df",
+    "semantic_hash": ""
+  },
+  "docs/quote-extraction-repair.md": {
+    "mtime": 1792823745.0635855,
+    "seen": 1792826349.4595275,
+    "ast_hash": "267136054e871dce21bfd02c92fffc22",
+    "semantic_hash": ""
+  },
+  "src/coverwise/card_schemas.py": {
+    "mtime": 1792825555.8462641,
+    "seen": 1792826349.459438,
+    "ast_hash": "760fe440784a11cc21519af9975f822f",
+    "semantic_hash": ""
+  },
+  "src/coverwise/cards.py": {
+    "mtime": 1792836944.8031323,
+    "seen": 1792837288.4102883,
+    "ast_hash": "fb0f56180320a15e06a78a853437db51",
+    "semantic_hash": ""
+  },
+  "tests/test_cards.py": {
+    "mtime": 1792836404.634094,
+    "seen": 1792837288.4103794,
+    "ast_hash": "9c52a1a5c9b5643ea660f81d64387c0c",
+    "semantic_hash": ""
+  },
+  "docs/interactive-cards.md": {
+    "mtime": 1792833611.9786437,
+    "seen": 1792833746.7326531,
+    "ast_hash": "956575395e35bca4ab11f3d741d30cf0",
+    "semantic_hash": ""
+  },
+  "docs/card-ux-repair.md": {
+    "mtime": 1792837246.21399,
+    "seen": 1792837288.4104412,
+    "ast_hash": "83023798317fddb4450607fc53db9545",
+    "semantic_hash": ""
+  },
+  "tests/test_card_routing.py": {
+    "mtime": 1792836837.3414774,
+    "seen": 1792837288.4103754,
+    "ast_hash": "f98a0b747b9fc767d5107075c7fd66c4",
+    "semantic_hash": ""
+  },
+  "docs/card-routing-repair.md": {
+    "mtime": 1792837244.0945868,
+    "seen": 1792837288.4104373,
+    "ast_hash": "bcd15b67b2becb68de5e624050a73da5",
+    "semantic_hash": ""
+  }
+}
